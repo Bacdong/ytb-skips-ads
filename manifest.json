@@ -1,0 +1,14 @@
+{
+    "name": "Youtube Skips Ads - by Bacdongg",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "description": "Auto Skip Ads Youtube Extension",
+    "content_scripts": [{
+       "matches": [
+          "https://www.youtube.com/watch*"
+       ],
+       "js": [
+          "./assets/js/content.js"
+       ]
+    }]
+}
