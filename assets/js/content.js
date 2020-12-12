@@ -1,3 +1,5 @@
+chrome.browserAction.setIcon({path:"../../images/logo.png"});
+
 // alert("Extension work");
 console.log('Extension Work!');
 
@@ -13,7 +15,7 @@ const observer = new MutationObserver(() => {
         skipBtnElement = [];
     else
         skipBtnElement = skipBtnElement[0];
-        
+
     if (skipBtnElement)
         skipBtnElement.click();
 });
